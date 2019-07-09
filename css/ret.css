@@ -1,0 +1,172 @@
+*{
+    margin: 0 auto;
+    background-color: beige;
+    text-align: center;
+     font-family: 'Quicksand';
+    
+    
+}
+h1{
+    
+    padding-top: 20px;
+}
+
+.hello{
+    
+    border: 5px solid #3C3F41;
+    border-radius: 15px;
+    margin-top: 20px;
+}
+.hello th,td{
+    
+    border: 2px solid  #3C3F41;
+    
+        border-radius: 3px ;
+    transition: .2s;
+}
+
+
+
+.toll{
+    
+    background-color: #00666A;
+    height: 50px;
+    border: 2px solid black;
+    border-radius:  5px;
+    margin-top: 20px;
+    width: 200px;
+    color: antiquewhite;
+    transition: 0.5s;
+    margin-bottom: 20px;
+    
+        
+    
+}
+
+.toll:hover{
+    
+    background: white;
+    border: 2px solid green;
+    border-radius: 5px;
+    transform: scale(1.03);
+    color: black;
+    
+}
+
+.hello th:hover , td {
+    
+    transform: scale(1.05);
+}
+
+.brox{
+    
+    min-height: 40px;
+    border: 3px solid #47484B;
+    
+    background-color: red;
+    color:white;
+    border: 2px solid #5D5F60;
+    border-radius: 4px;  width: 70px;
+    transition: .5s
+
+
+}
+
+.brox:hover{
+    transform: scale(1.1);
+    color: black;
+    
+}
+
+.boxes{
+    margin-top: 5px;
+    min-height: 40px;
+    border: 3px solid #47484B;
+    
+    background-color: #00AD5F;
+    color:white;
+    border: 2px solid #5D5F60;
+    border-radius: 4px;  width: 70px;
+    transition: .5s
+
+
+}
+
+.boxes:hover{
+    transform: scale(1.1);
+    color: black;
+    
+}
+
+.roll{
+    
+    margin: 100px auto;
+    text-transform: uppercase;
+    font-size: 30px;
+    width: 800px;
+    height: 100px;
+    text-align: center;
+    border: 3px solid #009688;
+    display: block;
+    text-decoration: none;
+    color: #000968;
+    position: relative;
+    overflow: hidden;
+    background: transparent;
+    transition: 0.3s;
+    border-radius: 30px;
+        
+}
+
+.roll:before{
+    
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: #009688;
+    top: -100%;
+    left: 0;
+    z-index:1 ;
+    transition: 0.3s;
+    
+    
+    
+}
+.roll:after{
+    
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: #009688;
+    top: 0;
+    left: 0;
+    z-index:-1 ;
+    transition: 0.3s;
+    
+    
+    
+}
+
+
+.roll:hover{
+    
+    color: #fff;
+}
+
+.roll:hover:before{
+    
+    top: 0;
+    z-index: 1;
+    
+   
+}
+.roll:hover:after{
+    
+    top: 0;
+    z-index: 1;
+}
+   
+
+    
